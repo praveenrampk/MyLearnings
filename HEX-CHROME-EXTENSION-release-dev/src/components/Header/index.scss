@@ -1,0 +1,13 @@
+@import "../../assets/styles/variables";
+
+.dashboardHeader {
+  padding: 8px 16px;
+  height: 70px;
+  border-bottom: 2px solid $primary-color;
+}
+
+.dark-mode {
+  .dashboardHeader {
+    border-bottom-color: $white;
+  }
+}

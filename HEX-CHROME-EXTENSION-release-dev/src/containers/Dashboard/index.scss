@@ -1,0 +1,59 @@
+@import "../../assets/styles/variables";
+
+.dashboardPage {
+  overflow-y: auto;
+}
+
+.hexHeaderSection {
+  .dashboardTitle {
+    padding: 32px 20px;
+    h1 {
+      font-size: 22px;
+      font-weight: bold;
+      color: var(--text-primary);
+    }
+    p {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--font-one);
+      text-transform: uppercase;
+    }
+  }
+}
+.hexContentSection {
+  margin: 0 20px;
+  padding: 30px 16px;
+  border-radius: 20px;
+  background: $primary-color;
+  .hexContentBalance {
+    font-size: 24px;
+    font-weight: bold;
+    color: $white;
+  }
+  .hexContentUsd {
+    font-size: 18px;
+    font-weight: normal;
+    color: $white;
+  }
+}
+
+.scrollUp {
+  background: $primary-color !important;
+  color: $white !important;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 6px 16px;
+  font-size: 40px;
+  line-height: 38px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dark-mode {
+  .hexAssetSection,
+  .assetContentItem {
+    border-bottom-color: $white !important;
+  }
+}
+

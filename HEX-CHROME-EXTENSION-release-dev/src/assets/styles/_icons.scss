@@ -1,0 +1,233 @@
+// Icons style here
+
+.icon {
+  background-size: contain;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+
+  &.iconXS {
+    width: 16px;
+    height: 16px;
+  }
+  &.iconXS-12 {
+    width: 12px;
+    height: 12px;
+  }
+  &.iconXS-14 {
+    width: 14px;
+    height: 14px;
+  }
+  &.iconXS-18 {
+    width: 18px;
+    height: 18px;
+  }
+  &.iconXS-20 {
+    width: 20px;
+    height: 20px;
+  }
+  &.iconXS-22 {
+    width: 22px;
+    height: 22px;
+  }
+  &.iconS {
+    width: 24px;
+    height: 24px;
+  }
+  &.iconS-26 {
+    width: 26px;
+    height: 26px;
+  }
+  &.iconSm {
+    width: 30px;
+    height: 30px;
+  }
+  &.iconM {
+    width: 32px;
+    height: 32px;
+  }
+  &.iconMd {
+    width: 34px;
+    height: 34px;
+  }
+  &.iconM-1 {
+    width: 38px;
+    height: 38px;
+  }
+  &.iconL {
+    width: 44px;
+    height: 44px;
+  }
+  &.iconL-60 {
+    width: 60px;
+    height: 60px;
+  }
+  &.iconL-90 {
+    width: 90px;
+    height: 90px;
+  }
+  &.iconXl {
+    height: 150px;
+    width: 150px;
+  }
+  &.iconXXl {
+    height: 180px;
+    width: 180px;
+  }
+  &.icon-plus {
+    background: url("../logos/plus-circle.svg");
+  }
+  &.icon-minus {
+    background: url("../logos/minus-circle.svg");
+  }
+  &.icon-copy {
+    background: url("../logos/copy.svg");
+  }
+  &.icon-link {
+    background: url("../logos/upward-right-arrow.svg");
+  }
+  &.icon-check {
+    background: url("../logos/check-icon.png");
+  }
+  &.icon-menu {
+    background: url("../logos/menu.svg");
+  }
+  &.successIcon {
+    background: url("../logos/success.svg");
+  }
+  &.errorIcon {
+    background: url("../logos/error.svg");
+  }
+  &.comingSoonIcon {
+    background: url("../logos/coming-soon.svg");
+  }
+  &.opacity6 {
+    opacity: 0.6;
+  }
+  &.hexPurple {
+    background: url("../logos/hex-logo-purple.svg");
+  }
+  &.infoIcon {
+    background: url("../logos/info.svg");
+  }
+  &.iconReload {
+    background: url("../logos/update-arrow.svg");
+  }
+  &.ledgerLogo {
+    background: url("../logos/ledger-logo-min.png");
+  }
+  &.connectHardware {
+    background: url("../logos/connectHardware-min.png");
+  }
+  &.loginWallet {
+    background: url("../logos/connectLaptop-min.png");
+  }
+  &.connectWallet {
+    background: url("../logos/connectWallet-min.png");
+  }
+  &.walletDetails {
+    background: url("../logos/walletDetails-min.png");
+  }
+  &.iconVisibility {
+    background: url("../logos/visibility.svg");
+    opacity: 0.6;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &.iconVisibilityOff {
+    background: url("../logos/visibility-off.svg");
+    opacity: 0.6;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &.metamask {
+    background: url("../logos/metamask.png");
+  }
+  &.trash {
+    background: url("../logos/trash.svg");
+  }
+  &.download {
+    background: url("../logos/download.svg");
+  }
+}
+
+.dark-mode {
+  .dark-mode-img {
+    filter: brightness(0) invert(1);
+    --webkit-filter: brightness(0) invert(1);
+  }
+}
+
+//App logo styles here
+
+.hexSymbolPurple {
+  background: url("../logos/hex-logo-purple.svg") center no-repeat;
+  background-size: contain;
+}
+
+.headerLogo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.errorIcon,
+.successIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.welcomeLogo {
+  width: 70px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.add-icon {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $primary-color;
+  border-radius: 50px;
+  line-height: 8px;
+  position: absolute;
+  top: 6px;
+  right: -8px;
+  z-index: 5000;
+  span {
+    font-size: 22px;
+    font-weight: 600;
+    color: $white;
+  }
+}
+
+.add-remove-icon {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  margin-right: 0;
+  z-index: 100;
+}
+
+.imgLedger {
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+}
+.imgWallet {
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+}
+.imgDetails {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+}
