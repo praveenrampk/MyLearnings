@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+import { useEffect, useState } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import axios from 'axios';
+import '../src/App.css';
+
+const App = () => {
+    const URL = 'https://jsonplaceholder.typicode.com/photos';
+
+    const [content, setContent] = useState();
+    const getImages = async () => {
+        await axios.get(URL).then(res => {
+            console.log(res.data);
+            let newArray = [];
+            for (let i = 0; i < (res.data.length) - 4500; i++) {
+                newArray.push(res.data[i].thumbnailUrl);
+            }
+            // newArray = res.data.map((data) => {
+            //     return data.url;
+            // })
+            setContent(newArray);
+        })
+    }
+    useEffect(() => {
+        getImages();
+    }, []);
+
+    return (
+        <div>
+            <LazyLoadImage>
+                {content.map(url => {
+                    return (<img src={url}/>)
+                })}
+            </LazyLoadImage>
+        </div>
+    )
+}
+export default App;
+
+
+import useCustomHook from "./Hook/CustomHook";
+
+const App = () => {
+    const [firstName, bindFirstName, resetFirstName] = useCustomHook('');
+    const [lastName, bindLastName, resetLastName] = useCustomHook('');
+
+    const handleSubmit =_=> {
+        console.log(firstName, lastName);
+        alert(`Hello ${firstName} ${lastName}`);
+        resetFirstName();
+        resetLastName();
+    }
+    return (
+        <div>
+            <label>FirstName</label>
+            <input type='text' placeholder='First Name' {...bindFirstName}/>
+            <label>Last Name</label>
+            <input type='text' placeholder='Last Name' {...bindLastName}/>
+            <button onClick={handleSubmit}>submit</button>
+        </div>
+    )
+}
+export default App;
+
+
+import { useState } from 'react';
+
+const useCustomHook = (initialValue) => {
+    const [name, setName] = useState(initialValue);
+
+    const reset = () => {
+        setName(initialValue);
+    }
+    const bind = {
+        value: name,
+        onChange : event => {
+            setName(event.target.value);
+        }
+    }
+    return [name, bind, reset];
+}
+export default useCustomHook;
