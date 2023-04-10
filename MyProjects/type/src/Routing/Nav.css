@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    background-color: #0c3fa5;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 1vh;
+    background-color: rgb(65, 159, 207);
+    color: white;
+  }
+  .nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  .input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
