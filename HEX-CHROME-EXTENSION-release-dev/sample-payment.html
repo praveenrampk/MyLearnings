@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Payment Page</title>
+    <style>
+      body {
+        height: 90vh;
+        margin: 0;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 32px;
+      }
+      .first-div,
+      .second-div {
+        height: 300px;
+        padding: 32px;
+        margin: 16px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+          rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      p {
+        margin: 8px 0;
+        text-align: left;
+        font-weight: bold;
+      }
+
+      input {
+        width: 280px;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        box-shadow: none;
+        border: 1px solid #000 !important;
+      }
+
+      button {
+        background: #000000;
+        color: $white;
+        opacity: 0.8;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid #000 !important;
+        border-radius: 5px;
+        margin: 10px 0;
+        width: 120px;
+        cursor: pointer;
+      }
+
+      .token {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .token p {
+        margin-bottom: 22px;
+      }
+
+      .content {
+        margin: 0;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <script>
+      window.addEventListener("hexProvider", (data) => {
+        console.log("detail", data);
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Sample Payment Page</h1>
+
+    <div class="content">
+      <button id="trigger-hbar-transfer" type="button" onclick="enableHex()">
+        Enable
+      </button>
+      <div class="first-div">
+        <p>Amount</p>
+        <input type="text" id="amount" />
+        <p>Transfer To</p>
+        <input type="text" id="transferTo" />
+
+        <button
+          id="trigger-hbar-transfer"
+          type="button"
+          onclick="onHbarTransfer()"
+        >
+          Pay
+        </button>
+      </div>
+
+      <div class="second-div">
+        <div class="token">
+          <p>Token Id</p>
+          <input type="text" id="tokenId" />
+        </div>
+
+        <div class="button-group">
+          <button
+            id="trigger-token-associate"
+            type="button"
+            onclick="onTokenAssociate()"
+          >
+            Associate
+          </button>
+
+          <button
+            id="trigger-token-dissociate"
+            type="button"
+            onclick="onTokenDissociate()"
+          >
+            Dissociate
+          </button>
+        </div>
+        <script>
+          const enableHex = () => {
+            window.hex.enable();
+          };
+          const onHbarTransfer = () => {
+            const amount = document.getElementById("amount").value;
+            const transferTo = document.getElementById("transferTo").value;
+            window.hex.sendHbar({ amount, transferTo });
+          };
+
+          const onTokenAssociate = () => {
+            const tokenId = document.getElementById("tokenId").value;
+            triggerTokenAssociate(tokenId);
+          };
+
+          const onTokenDissociate = () => {
+            const tokenId = document.getElementById("tokenId").value;
+            triggerTokenDissociate(tokenId);
+          };
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

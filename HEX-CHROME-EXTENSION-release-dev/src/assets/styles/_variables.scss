@@ -1,0 +1,55 @@
+// Font style
+$font-family: "Inter", sans-serif;
+
+$primary-bg: #f8f8ff;
+$secondary-bg: #f8f8f8;
+$dark-bg: #1a1625;
+
+//Color
+$primary-color: #7844fc;
+$primary-color1: #b89bff;
+$secondary-color: #aaaaaa;
+
+$white: #ffffff;
+$black: #000000;
+
+$red: #cf6679;
+
+$green: #4caf50;
+$green-light: rgba($green, 0.8);
+
+$yellow: #ffd800;
+
+$font-dark: $dark-bg;
+$font-dark1: rgba($dark-bg, 0.6);
+$font-dark2: rgba($dark-bg, 0.4);
+$font-dark3: rgba($dark-bg, 0.3);
+
+$font-light: $white;
+$font-light1: rgba(255, 255, 255, 0.6);
+$font-light2: rgba(255, 255, 255, 0.4);
+
+$border-light: #eaeaea;
+
+$box-shadow-primary: rgba($primary-color, 0.2);
+
+:root {
+  --app-bg: #f8f8ff;
+  --app-secondary-bg: #f4f4f4;
+  --loader-bg: rgba(255, 255, 255, 0.4);
+  --font-one: #1a1625;
+  --font-two: rgba(26, 22, 37, 0.6);
+  --font-three: rgba(26, 22, 37, 0.4);
+  --text-primary: #7844fc;
+  --dropdown-shadow: #eaeaea;
+}
+.dark-mode {
+  --app-bg: #1a1625;
+  --app-secondary-bg: #221d2f;
+  --loader-bg: rgba(26, 22, 37, 0.4);
+  --font-one: #ffffff;
+  --font-two: rgba(255, 255, 255, 0.6);
+  --font-three: rgba(255, 255, 255, 0.4);
+  --text-primary: #ffffff;
+  --dropdown-shadow: rgba(26, 22, 37, 0.4);
+}

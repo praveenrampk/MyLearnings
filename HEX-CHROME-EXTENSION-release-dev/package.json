@@ -1,0 +1,67 @@
+{
+  "name": "hex",
+  "version": "0.1.0",
+  "homepage": "https://myhex.io",
+  "private": true,
+  "dependencies": {
+    "@hashgraph/sdk": "^2.0.25",
+    "@ledgerhq/hw-transport": "^5.49.0",
+    "@ledgerhq/hw-transport-webusb": "^5.49.0",
+    "@metamask/onboarding": "^1.0.0",
+    "@slider-captcha/react": "^1.0.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "bignumber.js": "^9.0.1",
+    "bootstrap": "^4.6.0",
+    "ethers": "^5.4.6",
+    "lodash": "^4.17.20",
+    "lodash-es": "^4.17.20",
+    "metamask-extension-provider": "^3.0.0",
+    "nft.storage": "^3.1.3",
+    "node-sass": "^5.0.0",
+    "qrcode.react": "^1.0.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-browser-extension-scripts": "4.0.10",
+    "react-countdown": "^2.3.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "simple-react-store": "^2.1.3",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.3.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "sh build.sh",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "Hashgraph Exchange",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC"
+}
