@@ -1,0 +1,345 @@
+steps:-
+------
+1. npm create vite@latest
+2. do the follwoing commands
+3. cd folder-name
+4. npm i
+5. npm run dev (to run the application)
+
+    (or)
+
+native steps:-
+-------------
+1. npx create-react-app . --template typescript
+2. npm start
+3. install redux toolkit - npm i react-redux @reduxjs/toolkit
+
+
+
+what is typescript?
+------------------
+    typescript is also similar to javascript, we can also write pure javasript code and compile it.
+    
+    Note: we can create static types (number, string, boolean, etc.., ie..data types)
+    we need to compile the ts file and it will create one js file with the conversion of ts file
+    tsc fileName.ts - for compiling,
+    after compiled that file we can run it by node fileName.js
+
+    typescript can be used in both frontend and backend.
+
+what is static types?
+---------------------
+    It is like a data type, once u declare the variable as string, we doesn't assigns number to that.
+    
+    Basic Tricks:-
+    --------------
+        let id: number = 5;
+        let name: string = 'Praveen';
+        let isValid: boolean = true;
+        
+        let anyType: any = 'Kumar';
+        anyType = 5;
+        anyType = [1, 2, 3]; // any type can accept all the data types.
+
+        declaring arrays:-
+        -----------------
+            let array: number[] = [1, 2, 3, 4] //numbers array;
+            let anyType: any[] = [1, 'Praveen', true, () => {}]; // we can include any data types inside this array
+
+        Tuple:-
+        ------
+            let employee: [number, string, boolean] = [137, 'Praveen', true];
+        
+        Tuple array (predictable structure of data's):-
+        ----------------------------------------------
+            let employees: [number, string, boolean][] = [
+                [1, 'Praveen', true],
+                [2, 'Kumar', false],
+                [3, 'Naveen', true],
+            ];
+        
+        Union (more than one type may be comes):-
+        ---------------------------------------
+            let isNumOrStr: number | string;
+            isNumOrStr = 137;
+            isNumOrStr = 'Praveen';
+            isNumOrStr = true; // it throws error
+        
+        Enum (string and number):-
+        -------------------------
+            //Numbered enum;
+            enum direction1 = {
+                up, down, left, right
+            //  0     1     2    3
+            };
+            console.log(direction1.left); //2
+            enum direction2 = {
+                up = 3, down, left, right
+            //    3       4     5     6
+            }
+            console.log(direction2.left); // 5
+            [Note: number enum doesn't need all items should be intialized]
+
+            enum direction3 = {
+                up = 'up', down = 'down', left = 'left', right = 'right'
+            }
+            [Note: string enum must need all the items should be initialized]
+
+        Objects:-
+        --------
+            //Normal object literals;
+            let user = {
+                id: 137,
+                name: 'Praveen',
+                isMech: true,
+            };
+
+            //typed object;
+            let user: { id: number, name: string, isMech: boolean } = {
+                id: 137,
+                name: 'Praveen',
+                isMech: true,
+            };
+                (or)
+
+            type userType = {
+                id: number, 
+                name: string,
+                isMech: boolean,
+            };
+
+            let user: userType = {
+                id: 138,
+                name: 'Naveen',
+                isMech: false,
+            };
+        
+        Type Assert:-
+        ------------
+            let id: any = 5; // declared as any;
+            // if we need to change it as number means
+            let cusId = id as number;
+
+                (or)
+
+            let cusId = <number>id; // it will change any type as number type
+        
+        Functions:-
+        ----------
+            function myFunction (param1: number, param2: number): number {
+                return param1 + param2;
+            }
+            // here, I'm specifying the return type as number;
+            
+            //if we don't need to return means, write like this
+            
+            function myFunction (param: string): void {
+                //code..,
+            } 
+
+            //we can also include union here,
+
+            function myFunction (param: string | number): void {
+                if (typeof(param) === 'string') {
+                    //code..,
+                }
+                if (typeof(param) === 'number') {
+                    //code..,
+                }
+            }
+        
+        Interface:-
+        ----------
+            // It is similar to type
+
+            interface userType {
+                id: number,
+                name: string,
+                age?: number, // here ? represents optional property
+            };
+
+            let myObject: userType = {
+                id: 137,
+                name: 'Praveen'
+            }
+
+            // we can also assign read only property to the object's property
+
+            interface userType {
+                readonly id: number, // we can't re-write it after assigned one value
+                name: string,
+                age?: number,
+            }
+
+            let myObject: userType = {
+                id: 137,
+                name: 'Praveen'
+            }
+
+            myObject.id = 127; // throws error
+
+
+        Interface in Functions:-
+        ------------------------
+            
+            interface typeFunc {
+                (a: number, b: number): number // return type is specified also number
+            };
+
+            const add: typeFunc = (a: number, b: number) => a + b;
+            const sub: typeFunc = (a: number, b: number) => a - b;
+
+        classes:-
+        --------
+            class Person {
+                id: number;
+                name: string;
+
+                constructor (id: number, name: string) {
+                    this.id = id;
+                    this.name = name;
+                }
+            }
+            const obj1 = new Person(1, 'Praveen');
+        
+        
+            public accessing vs private accessing vs protected:-
+            ----------------    -----------------    ----------
+
+            1) private variable;
+
+            class Person {
+                private id: number;
+                private name: string;
+
+                constructor (id: number, name: string) {
+                    this.id = id;
+                    this.name = name;
+                }
+            }
+            const obj2 = new Person(138, 'Naveen');
+            console.log(obj2.id); // throws error, because id only be accessed within that class
+            
+            2) protected variable
+
+            class Person {
+                protected id: number;
+                protected name: string;
+
+                constructor (id: number, name: string) {
+                    this.id = id;
+                    this.name = name;
+                }
+            }
+            const obj2 = new Person(138, 'Naveen');
+            console.log(obj2.id); // throws error, because id only be accessed within that class
+            // but it can be accessed by those who inheriting this class
+
+            3) public variable
+            
+            It is same behaviour when declare a variable as public keyword or without this keyword
+
+        
+        <Interface in Classes>:-
+        -----------------------
+            interface personType {
+                id: number,
+                name: string,
+                getName(): string,
+            };
+
+            class Person implements personType {
+                id: number;
+                name: string;
+
+                constructor (id: number, name: string) {
+                    this.id = id;
+                    this.name = name;
+                }
+
+                getName () {
+                    return 'Praveen'; // if we return number, it throws an error
+                }
+            }
+            //personType is an interface, it was implemented by the class Person
+            //all the properties mentioned inside the interface should also be declared inside the implementing classes with same name
+
+        
+        Inheritence:-
+        ------------
+
+            class Person implements personType {
+                    id: number;
+                    name: string;
+
+                    constructor (id: number, name: string) {
+                        this.id = id;
+                        this.name = name;
+                    }
+
+                    getName () {
+                        return 'Praveen';
+                    }
+            }
+
+            class Employee extends Person {
+                position: string;
+
+                constructor (id: number, name: string, position: string) {
+                    super(id, name); // it will call the Person's class constructor;
+                    this.position = position;
+                }
+            }
+
+            const emp1 = new Employee(137, 'Praveen', 'Block-Chain-Developer');
+            console.log(emp1.name); // Praveen
+            console.log(emp1.getName()); // Praveen
+            console.log(emp1.position); // Block-Chain-Developer
+
+        
+        Generics:-
+        ---------
+            const myFunction = <T>(items: T[]): T[] => {
+                return new Array().concat(items);
+            }
+
+            let numArray = myFunction<number>([1, 2, 3, 4, 5]);
+            let strArray = myFunction<string>(['1', '2', '3']);
+
+            numArray.push('6'); // throws error
+            strArray.push(4); // throws error
+
+
+
+
+=========================================================
+|          PROS              |         CONS             |
+=========================================================
+| * More Robust              | * More Code to Write     |
+---------------------------------------------------------
+| * Easily Spot Bugs         | * More to Learn          |
+---------------------------------------------------------
+| * Predictability           | * Required Compilation   |
+---------------------------------------------------------
+| * Readability              | * Not True Static Typing |
+---------------------------------------------------------
+| * Popular                  |            -             |
+=========================================================
+
+
+Scanning Inputs From user:-
+--------------------------
+
+import scan from 'readline';
+
+const rl = scan.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+});
+
+rl.question('Enter your name: ', (name: string) => {
+    console.log(`Hello, ${name}!`);
+    rl.close();
+});
+
+npm install --save-dev @types/node@latest
