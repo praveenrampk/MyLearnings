@@ -1,0 +1,118 @@
+import '../src/App.css';
+
+const Shop = () => {
+  console.log('shop');
+  return (
+    <div >
+      <h1>Shop</h1>
+    </div>
+  )
+}
+export default Shop;
+
+import '../src/App.css';
+
+const About = () => {
+  return (
+    <div>
+      <h1>About</h1>
+    </div>
+  )
+}
+export default About;
+
+import { Link } from 'react-router-dom';
+import '../src/App.css';
+
+const Nav = () => {
+  const navStyle = { color: 'white' };
+  return (
+    <nav>
+        <h3>Logo</h3>
+        <ul className='nav-links'>
+          <Link style={navStyle} to='/'>
+            <li>Home</li>
+          </Link>
+          <Link style={navStyle} to='/shop'>
+            <li>Shop</li>
+          </Link>
+          <Link  style={navStyle} to='/about'>
+            <li>About</li>
+          </Link>
+        </ul>
+    </nav>
+  )
+}
+export default Nav;
+
+import '../src/App.css';
+
+const Home = () => {
+  console.log('home');
+  return (
+    <div>
+      <h1>Home</h1>
+    </div>
+  )
+}
+export default Home;
+
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Shop from './Shop';
+import About from './About';
+import Home from './Home';
+import Nav from './Nav';
+import '../src/App.css';
+
+const App = () => {
+  return (
+    <Router>{/* we importing the react routing properites and enclosing all the contents inside the Router */}
+      <div>
+        <Nav/>
+        <Switch>
+          <Route path='/' exact component={Home}/> {/* exact keyword checks the exact api present or not */}
+          <Route path='/shop' component={Shop}/>
+          <Route path='/about' component={About}/> {/* here, the path is used to navigate the desired pages */}
+        </Switch> {/* the main motive of switch is, it allows only one component should render */}
+      </div>
+    </Router>
+  )
+}
+export default App;
+//npm i react-router-dom
+//we want routing functionality of react, importing the BrowserRouter
+
+//css
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+nav {
+  display: flex;
+  background-color: #282c34;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 1vh;
+  background: rgb(136, 141, 143);
+  color: white;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
