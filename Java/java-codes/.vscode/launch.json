@@ -1,0 +1,798 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ReverseStringWidSpace",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug14.ReverseStringWidSpace",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Rough",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug16.Rough",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "SnakeTraversalMat",
+            "request": "launch",
+            "mainClass": "zoho_faq.SnakeTraversalMat",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "ZicZacTraversal",
+            "request": "launch",
+            "mainClass": "zoho_faq.ZicZacTraversal",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "SplitArrayAdd",
+            "request": "launch",
+            "mainClass": "zoho_faq.SplitArrayAdd",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "MatrixDiagonalTraverse",
+            "request": "launch",
+            "mainClass": "zoho_faq.MatrixDiagonalTraverse",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "CrossWord",
+            "request": "launch",
+            "mainClass": "zoho_faq.CrossWord",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "BusPassengers",
+            "request": "launch",
+            "mainClass": "zoho_faq.tech_round.BusPassengers",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "zoho_faq.LinkedList",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "StringBrackets",
+            "request": "launch",
+            "mainClass": "zoho_faq.StringBrackets",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "RotatingMatrixAnti",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug16.RotatingMatrixAnti",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "SpiralMatrix",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug16.SpiralMatrix",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "RotatingMatrix",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug16.RotatingMatrix",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "AlternateNumShift",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug16.AlternateNumShift",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Method4",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug16.merg_without_space.Method4",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Method3",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug16.merg_without_space.Method3",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "NumbersToRoman",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug15.NumbersToRoman",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "CountPairs",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug15.CountPairs",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "MajorityOfElements",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug15.MajorityOfElements",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "AlternativePrinting",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug15.AlternativePrinting",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "MaxNoOfCharsAToB",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug12.MaxNoOfCharsAToB",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "MiddlePattern",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug15.MiddlePattern",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "MakeDistrinctDigit",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug14.MakeDistrinctDigit",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterEvenNum",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug14.NextGreaterEvenNum",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStringWidSpace",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug14.finding_duplicates_in_array.ReverseStringWidSpace",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Method2",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug14.finding_duplicates_in_array.Method2",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "FindDuplicates",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug14.FindDuplicates",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "CountNumOccuring",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug14.CountNumOccuring",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Sort012DecOrder",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug14.Sort012DecOrder",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "ShiftZeroAtLeft",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug14.ShiftZeroAtLeft",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "FindingDuplicatesInArray",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug14.FindingDuplicatesInArray",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "RearrangeArray",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug12.RearrangeArray",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "LeftSideSmallerRightSideGreater",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug13.LeftSideSmallerRightSideGreater",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "StringONS",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.StringONS",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "StingPatternWithSpace",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.StingPatternWithSpace",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "PowerOfNumbers",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug14.PowerOfNumbers",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "cli_apps.bus_booking.Main",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "NthFibbonacci",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.aug13.NthFibbonacci",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Rough",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.Rough",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "LongestPalindromeString",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.LongestPalindromeString",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "RearrangeArray",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.RearrangeArray",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "FindMaxMin",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.FindMaxMin",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "PermutationsOfString",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.PermutationsOfString",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "ArrayReversing",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.ArrayReversing",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "DuplicateInArray",
+            "request": "launch",
+            "mainClass": "zoho_geeks_for_geeks.DuplicateInArray",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Butterfly",
+            "request": "launch",
+            "mainClass": "problems.Butterfly",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "cli_apps.taxi_booking.Main",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "AnagramMap",
+            "request": "launch",
+            "mainClass": "anagram.AnagramMap",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "cli_apps.billing_app.Main",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "cli_apps.contacts_app.Main",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "TaxiBookingApp",
+            "request": "launch",
+            "mainClass": "cli_apps.taxi_booking.TaxiBookingApp",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "cli_apps.theater_app.Main",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "linked_list.Basic",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "AntiSpiralMatrix",
+            "request": "launch",
+            "mainClass": "matrices.AntiSpiralMatrix",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "CentredSquare",
+            "request": "launch",
+            "mainClass": "matrices.CentredSquare",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "ClockSpiralMatrix",
+            "request": "launch",
+            "mainClass": "matrices.ClockSpiralMatrix",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Transpose",
+            "request": "launch",
+            "mainClass": "matrices.Transpose",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Enumerable",
+            "request": "launch",
+            "mainClass": "oops_concepts.Enumerable",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverridingExample",
+            "request": "launch",
+            "mainClass": "oops_concepts.MethodOverridingExample",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Butterfly",
+            "request": "launch",
+            "mainClass": "patterns.Butterfly",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "DiamondDiagonalHallow",
+            "request": "launch",
+            "mainClass": "patterns.DiamondDiagonalHallow",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "FullPyramidNumber",
+            "request": "launch",
+            "mainClass": "patterns.FullPyramidNumber",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Grid",
+            "request": "launch",
+            "mainClass": "patterns.Grid",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "HalfPyramid",
+            "request": "launch",
+            "mainClass": "patterns.HalfPyramid",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "HalfPyramidNum",
+            "request": "launch",
+            "mainClass": "patterns.HalfPyramidNum",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "HallowDiamondInscribed",
+            "request": "launch",
+            "mainClass": "patterns.HallowDiamondInscribed",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "HallowRectangle",
+            "request": "launch",
+            "mainClass": "patterns.HallowRectangle",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "HallowTriangle",
+            "request": "launch",
+            "mainClass": "patterns.HallowTriangle",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "InvertedSquare",
+            "request": "launch",
+            "mainClass": "patterns.InvertedSquare",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "InvertedTriangle",
+            "request": "launch",
+            "mainClass": "patterns.InvertedTriangle",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "InvertedTriangleNum",
+            "request": "launch",
+            "mainClass": "patterns.InvertedTriangleNum",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "MPattern",
+            "request": "launch",
+            "mainClass": "patterns.MPattern",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "NormalInvertedNormalFullTriangle",
+            "request": "launch",
+            "mainClass": "patterns.NormalInvertedNormalFullTriangle",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Rhombus",
+            "request": "launch",
+            "mainClass": "patterns.Rhombus",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "RightAngleFullPyramid",
+            "request": "launch",
+            "mainClass": "patterns.RightAngleFullPyramid",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "SolidDiamond",
+            "request": "launch",
+            "mainClass": "patterns.SolidDiamond",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "SolidDiamondNum",
+            "request": "launch",
+            "mainClass": "patterns.SolidDiamondNum",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "SolidHalfDiamond",
+            "request": "launch",
+            "mainClass": "patterns.SolidHalfDiamond",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "StarWidNum",
+            "request": "launch",
+            "mainClass": "patterns.StarWidNum",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Timer",
+            "request": "launch",
+            "mainClass": "patterns.Timer",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "TimerHallow",
+            "request": "launch",
+            "mainClass": "patterns.TimerHallow",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "patterns.Triangle",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "ZPattern",
+            "request": "launch",
+            "mainClass": "patterns.ZPattern",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Butterfly(1)",
+            "request": "launch",
+            "mainClass": "patterns.recursive_patterns.Butterfly",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "HallowDiamondInscribed(1)",
+            "request": "launch",
+            "mainClass": "patterns.recursive_patterns.HallowDiamondInscribed",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Dummy",
+            "request": "launch",
+            "mainClass": "patterns.snake.Dummy",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "LowerTriangle",
+            "request": "launch",
+            "mainClass": "patterns.snake.LowerTriangle",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "SnakeFullTrianglePattern",
+            "request": "launch",
+            "mainClass": "patterns.snake.SnakeFullTrianglePattern",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "UpperTriangle",
+            "request": "launch",
+            "mainClass": "patterns.snake.UpperTriangle",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "ZikaPattern",
+            "request": "launch",
+            "mainClass": "patterns.snake.ZikaPattern",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Anagram",
+            "request": "launch",
+            "mainClass": "problems.Anagram",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeName",
+            "request": "launch",
+            "mainClass": "problems.PalindromeName",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "EvenNumbers",
+            "request": "launch",
+            "mainClass": "recursion_problems.EvenNumbers",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "NPrime",
+            "request": "launch",
+            "mainClass": "recursion_problems.NPrime",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "NaturalNumbers",
+            "request": "launch",
+            "mainClass": "recursion_problems.NaturalNumbers",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "recursion_problems.PrimeNumber",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "FindDuplicates",
+            "request": "launch",
+            "mainClass": "rough.FindDuplicates",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "FrequencySort",
+            "request": "launch",
+            "mainClass": "rough.FrequencySort",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "rough.Hello",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Pattern",
+            "request": "launch",
+            "mainClass": "rough.Pattern",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Rough",
+            "request": "launch",
+            "mainClass": "rough.Rough",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "RunThread",
+            "request": "launch",
+            "mainClass": "rough.RunThread",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "rough.Solution",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "SortByKthValue",
+            "request": "launch",
+            "mainClass": "rough.SortByKthValue",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "rough.Test",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "ZigZagFashion",
+            "request": "launch",
+            "mainClass": "rough.ZigZagFashion",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "family",
+            "request": "launch",
+            "mainClass": "rough.family",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "hashMap",
+            "request": "launch",
+            "mainClass": "rough.hashMap",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "DuplicateNum",
+            "request": "launch",
+            "mainClass": "rough.rough.DuplicateNum",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeLinkedList",
+            "request": "launch",
+            "mainClass": "taught_problems.PalindromeLinkedList",
+            "projectName": "java-codes_70eb9013"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber(1)",
+            "request": "launch",
+            "mainClass": "taught_problems.PrimeNumber",
+            "projectName": "java-codes_70eb9013"
+        }
+    ]
+}
