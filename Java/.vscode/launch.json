@@ -1,0 +1,365 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PalindromeLinkedList",
+            "request": "launch",
+            "mainClass": "taught_problems.PalindromeLinkedList",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "ReversingLinkedList",
+            "request": "launch",
+            "mainClass": "taught_problems.ReversingLinkedList",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "taught_problems.PrimeNumber",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "linked_list.Basic",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "NPrime",
+            "request": "launch",
+            "mainClass": "recursion_problems.NPrime",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "recursion_problems.PrimeNumber",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "EvenNumbers",
+            "request": "launch",
+            "mainClass": "recursion_problems.EvenNumbers",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "NaturalNumbers",
+            "request": "launch",
+            "mainClass": "recursion_problems.NaturalNumbers",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "CentredSquare",
+            "request": "launch",
+            "mainClass": "matrices.CentredSquare",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "MPattern",
+            "request": "launch",
+            "mainClass": "patterns.MPattern",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "Butterfly",
+            "request": "launch",
+            "mainClass": "patterns.recursive_patterns.Butterfly",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "HallowDiamondInscribed",
+            "request": "launch",
+            "mainClass": "patterns.recursive_patterns.HallowDiamondInscribed",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "patterns.recursive_patterns.Diamond",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "Dummy",
+            "request": "launch",
+            "mainClass": "patterns.snake.Dummy",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "Dummay",
+            "request": "launch",
+            "mainClass": "patterns.snake.Dummay",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "UpperTriangle",
+            "request": "launch",
+            "mainClass": "patterns.snake.UpperTriangle",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "LowerTriangle",
+            "request": "launch",
+            "mainClass": "patterns.snake.LowerTriangle",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "NormalInvertedTriangle",
+            "request": "launch",
+            "mainClass": "patterns.snake.NormalInvertedTriangle",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "ZikaPattern",
+            "request": "launch",
+            "mainClass": "patterns.ZikaPattern",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "SnakeFullTrianglePattern",
+            "request": "launch",
+            "mainClass": "patterns.SnakeFullTrianglePattern",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "NormalInvertedNormalFullTriangle",
+            "request": "launch",
+            "mainClass": "patterns.NormalInvertedNormalFullTriangle",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "InvertedTriangleNum",
+            "request": "launch",
+            "mainClass": "patterns.InvertedTriangleNum",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "InvertedTriangle",
+            "request": "launch",
+            "mainClass": "patterns.InvertedTriangle",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "InvertedSquare",
+            "request": "launch",
+            "mainClass": "patterns.InvertedSquare",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "NormalInvertedTriangle",
+            "request": "launch",
+            "mainClass": "patterns.NormalInvertedTriangle",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "Transpose",
+            "request": "launch",
+            "mainClass": "matrices.Transpose",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "ClockSpiralMatrix",
+            "request": "launch",
+            "mainClass": "matrices.ClockSpiralMatrix",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "SpiralMatrix",
+            "request": "launch",
+            "mainClass": "patterns.SpiralMatrix",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "Rhombus",
+            "request": "launch",
+            "mainClass": "patterns.Rhombus",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "DiamondDiagonalHallow",
+            "request": "launch",
+            "mainClass": "patterns.DiamondDiagonalHallow",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "TimerHallow",
+            "request": "launch",
+            "mainClass": "patterns.TimerHallow",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "Timer",
+            "request": "launch",
+            "mainClass": "patterns.Timer",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "Butterfly",
+            "request": "launch",
+            "mainClass": "patterns.Butterfly",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "HallowDiamondInscribed",
+            "request": "launch",
+            "mainClass": "patterns.HallowDiamondInscribed",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "HalfPyramidNum",
+            "request": "launch",
+            "mainClass": "patterns.HalfPyramidNum",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "SolidDiamondNum",
+            "request": "launch",
+            "mainClass": "patterns.SolidDiamondNum",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "SolidHalfDiamond",
+            "request": "launch",
+            "mainClass": "patterns.SolidHalfDiamond",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "SolidDiamond",
+            "request": "launch",
+            "mainClass": "patterns.SolidDiamond",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "StarWidNum",
+            "request": "launch",
+            "mainClass": "patterns.StarWidNum",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "RightAngleFullPyramid",
+            "request": "launch",
+            "mainClass": "patterns.RightAngleFullPyramid",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "FullPyramidNumber",
+            "request": "launch",
+            "mainClass": "patterns.FullPyramidNumber",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "HalfPyramid",
+            "request": "launch",
+            "mainClass": "patterns.HalfPyramid",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "HallowRectangle",
+            "request": "launch",
+            "mainClass": "patterns.HallowRectangle",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "Triangle",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "TrianglePattern",
+            "request": "launch",
+            "mainClass": "TrianglePattern",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "HallowTriangle",
+            "request": "launch",
+            "mainClass": "HallowTriangle",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "HallowRectangle",
+            "request": "launch",
+            "mainClass": "HallowRectangle",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "ZikaPattern",
+            "request": "launch",
+            "mainClass": "ZikaPattern",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "ZigZagFashion",
+            "request": "launch",
+            "mainClass": "ZigZagFashion",
+            "projectName": "Java_b6c885b7"
+        },
+        {
+            "type": "java",
+            "name": "SortByKthValue",
+            "request": "launch",
+            "mainClass": "SortByKthValue",
+            "projectName": "Java_b6c885b7"
+        }
+    ]
+}
