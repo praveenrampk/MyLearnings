@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+textarea,
+select,
+input,
+button {
+  outline: none;
+}
+
+.notification-container {
+  @apply flex bg-black w-screen h-screen items-center justify-center;
+  .container {
+    @apply flex w-full h-full;
+    .approve {
+      @apply flex flex-col h-full w-full;
+      .header {
+        @apply flex h-[10%] w-full items-center justify-center bg-white-5;
+        .step {
+          @apply flex h-7 w-7 items-center justify-center rounded-full bg-white-10;
+          &.active {
+            @apply border border-primary;
+          }
+          &.complete {
+            @apply border border-primary bg-primary;
+          }
+        }
+        .bar {
+          @apply h-0 w-4 border border-primary;
+        }
+      }
+      .step-one {
+        @apply flex flex-col h-[80%] w-full items-center;
+        .site-id {
+          @apply flex h-14 w-auto bg-white-10 mt-4 rounded-2xl items-center justify-center gap-4 p-4;
+          .favicon {
+            @apply flex h-5 w-5 items-center justify-center;
+          }
+          .link {
+            @apply flex items-center justify-center text-base text-white text-center;
+          }
+        }
+        .info {
+          @apply flex flex-col h-16 w-80 items-center justify-center;
+          .heading {
+            @apply text-primary text-xl;
+          }
+          .subheading {
+            @apply text-white-85 text-sm;
+          }
+        }
+        .message {
+          @apply flex w-[90%] h-20 bg-white-5 rounded-lg text-white-85 text-base items-center p-4 border border-white-10 gap-6;
+          .eye {
+            @apply w-4 h-4;
+          }
+        }
+
+        .accounts-container {
+          @apply h-[67%] w-[344px] overflow-auto bg-white-10 rounded-2xl py-3 divide-y divide-white-25 overflow-y-scroll;
+          .account {
+            @apply flex h-14 w-full gap-2 items-center px-4;
+            input.account-checker {
+              @apply h-4 w-4;
+            }
+            .avatar {
+              @apply flex h-10 w-10 bg-white items-center justify-center rounded-full overflow-hidden;
+              .favicon {
+                @apply w-10;
+              }
+            }
+            .account-details {
+              @apply flex flex-col h-full items-start justify-center;
+              .name-address {
+                @apply flex text-base text-white;
+              }
+              .balance {
+                @apply text-sm text-white-45;
+              }
+            }
+          }
+        }
+      }
+      .step-two {
+        @apply flex h-5/6 w-full border border-white;
+      }
+      .footer {
+        @apply flex h-[10%] w-full items-center justify-between p-4 border-t border-white-25;
+        .btn {
+          @apply h-8 w-28;
+        }
+      }
+    }
+  }
+}

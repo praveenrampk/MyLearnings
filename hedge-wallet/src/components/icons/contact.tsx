@@ -1,0 +1,28 @@
+const ContactIcon = ({
+  fill = '#4CB944',
+  width = '34px',
+  height = '32px',
+}: {
+  fill: string;
+  width: string;
+  height: string;
+}) => {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 24 24"
+      fill="#ffffffd9"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+        stroke={fill}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
+
+export default ContactIcon;
