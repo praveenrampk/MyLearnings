@@ -25,8 +25,9 @@ const Login: FC = () => {
         resolver: yupResolver(LoginSchema),
     });
 
+    //https://node-backend1-praveen-p-kumar.onrender.com
     const findUserFromDB = async (data: LoginValues) => {
-        axios.post('http://localhost:5000/findUser', data)
+        axios.post('https://node-backend1-praveen-p-kumar.onrender.com/findUser', data)
             .then((res) => {
                 sessionStorage.clear();
                 sessionStorage.setItem('isLoggedIn', 'true');

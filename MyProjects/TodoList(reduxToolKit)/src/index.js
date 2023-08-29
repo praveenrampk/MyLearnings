@@ -1,14 +1,14 @@
 import ReactDOM from 'react-dom/client';
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
-import userTodo from './Store/Store';
-import userFings from './Store/Store2'
+import userTodo, { userSlice } from './Store/Store';
+import userFings, { userSlice1 } from './Store/Store2'
 import App from './App';
 
 const store = configureStore({
   reducer: {
-    todo: userTodo,
-    store2: userFings
+    [userSlice.name]: userTodo,
+    [userSlice1.name]: userFings
   }
 })
 

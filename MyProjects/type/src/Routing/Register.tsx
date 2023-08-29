@@ -39,7 +39,7 @@ const Register: FC = () => {
   });
 
   const submitDataToDB = (data: FormValues) => {
-    axios.post('http://localhost:5000/submit', data)
+    axios.post('https://node-backend1-praveen-p-kumar.onrender.com/submit', data)
     .then((response) => {
       console.log(response);
     })

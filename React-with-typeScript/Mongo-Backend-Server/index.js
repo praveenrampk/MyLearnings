@@ -5,6 +5,8 @@ const userRoutes = require('./Routes/routes');
 const app = express();
 const PORT = 5000;
 
+debugger;
+
 app.use(express.json());
 app.use(cors({
   origin: 'http://localhost:3000',

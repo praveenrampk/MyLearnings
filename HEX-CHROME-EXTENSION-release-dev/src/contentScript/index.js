@@ -17,6 +17,7 @@ window.addEventListener(
         const dispatch = new CustomEvent("hexProvider", { detail: data });
         data.status ? console.log(data) : console.error(data);
         window.dispatchEvent(dispatch);
+        
       }); // broadcasts it to rest of extension, or could just broadcast event.data.payload...
     } // else ignore messages seemingly not sent to yourself
   },
